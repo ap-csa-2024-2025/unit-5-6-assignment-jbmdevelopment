@@ -46,7 +46,8 @@ public class Point2D
   // Returns the distance from the origin to this point
   public double dist()
   {
-    return 0.0;
+    // default 0 anyways...
+    return Math.sqrt(Math.pow(x, 2), Math.pow(y, 0));
   }
 
   // Overload of dist() method
