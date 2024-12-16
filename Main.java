@@ -4,6 +4,8 @@ public class Main
 {
   public static void main(String[] args)
   {
+    Student test = new Student(1, 2, "Bob");
+    System.out.println(test);
     // Uncomment and complete the code below to test your Plane class
     /* Delete this line to uncomment code **************************
     Scanner sc = new Scanner(System.in);
