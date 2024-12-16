@@ -47,7 +47,7 @@ public class Point2D
   public double dist()
   {
     // default 0 anyways...
-    return Math.sqrt(Math.pow(x, 2), Math.pow(y, 0));
+    return Math.sqrt(Math.pow(x, 2) + Math.pow(y, 0));
   }
 
   // Overload of dist() method
