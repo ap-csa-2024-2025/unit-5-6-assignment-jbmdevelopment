@@ -4,25 +4,26 @@ public class Dog
   private double weight;
   private String name;
   private String color;
-
-  // Make setters
   public void setName(String n) {
     name = n;
   }
   public String getName() {
     return name;
   }
-  public void setWeight(int lbs) {
+  public void setWeight(double lbs) {
     weight = lbs;
+    if(weight < 0) {
+      weight = 0;
+    }
   }
-  public int getWeight() {
+  public double getWeight() {
     return weight;
   }
   public void setColor(String col) {
     color = col;
   }
   public String getColor() {
-    return col;
+    return color;
   }
   public void setBreed(String iBreed)
   {

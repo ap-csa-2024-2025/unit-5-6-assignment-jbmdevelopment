@@ -53,6 +53,6 @@ public class Point2D
   // Returns the distance from this point to Point2D other
   public double dist(Point2D other)
   {
-    return 0.0;
+    return Math.sqrt(Math.pow(x - other.x, 2) + Math.pow(y, - other.y, 2));
   }
 }
