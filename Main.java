@@ -6,6 +6,8 @@ public class Main
   {
     Student test = new Student(1, 2, "Bob");
     System.out.println(test);
+    Plane plane = new Plane();
+    System.out.println(plane.getLoc());
     // Uncomment and complete the code below to test your Plane class
     /* Delete this line to uncomment code **************************
     Scanner sc = new Scanner(System.in);

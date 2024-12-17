@@ -5,11 +5,12 @@ public class Student
   private String name;
 
   // Constructors
-public Student(int input_id, int input_grade, String input_name) {
+ public Student(int input_id, int input_grade, String input_name) {
     this.setID(input_id);
     this.setGrade(input_grade);
     this.setName(input_name);
-}
+
+  }
   public Student(int input_id, int input_grade) {
     this(input_id, input_grade, "unknown");
     /*ID = input_id;
