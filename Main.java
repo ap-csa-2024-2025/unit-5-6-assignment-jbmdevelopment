@@ -13,10 +13,10 @@ public class Main {
       input = sc.nextLine();
       if (input.equals("u")){
         p.upward();
-        System.out.print(p.toString());
+        System.out.println("Location: " + p.getLoc() + "\n " + p.toString());
       } else if (input.equals("d")) {
         p.downward();
-        System.out.print(p.toString());
+        System.out.println("Location: " + p.getLoc() + "\n " + p.toString());
         // move the plane downwards
       } else if (input.equals("n")) {
         System.out.println("Starting location for a new plane?");
